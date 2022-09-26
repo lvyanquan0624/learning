@@ -5,5 +5,5 @@ Apache Iceberg的文档和测试代码汇总
 ## 源码剖析
 
 ## 功能跟踪
-[支持hilbert curve](https://github.com/apache/iceberg/pull/5824)
+[支持hilbert curve(进行中)](https://github.com/apache/iceberg/pull/5824)
 
