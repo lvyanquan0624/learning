@@ -5,3 +5,5 @@
 ## 源码剖析
 
 ## 功能跟踪
+[支持hilbert curve](https://github.com/apache/iceberg/pull/5824)
+
