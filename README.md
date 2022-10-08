@@ -1,6 +1,5 @@
-# iceberg-learning
-Apache Iceberg的文档和测试代码汇总
-
+# 文档和测试代码汇总，供个人学习
+[社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit)
 
 ## 企业实践
 
@@ -9,7 +8,6 @@ Apache Iceberg的文档和测试代码汇总
 
 
 ## 功能跟踪
-[社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit)
 
 [支持hilbert curve(进行中)](https://github.com/apache/iceberg/pull/5824)
 
