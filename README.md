@@ -22,7 +22,7 @@
 [Apache Iceberg 1.0.0 RC0 发版](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
 正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
-[nessie项目](https://github.com/projectnessie/nessie)
+[nessie项目](https://github.com/projectnessie/nessie)    
 与Iceberg相关的一个项目，在Table Format的基础上提供事务保证和Git式的使用体验
 
 [支持hilbert curve(进行中)](https://github.com/apache/iceberg/pull/5824)  
