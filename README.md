@@ -25,7 +25,7 @@
 [Nessie项目](https://github.com/projectnessie/nessie)    
 与Iceberg相关的一个项目，在Table Format的基础上提供事务保证和Git式的使用体验
 
-[Arctic项目](https://github.com/NetEase/arctic)
+[Arctic项目](https://github.com/NetEase/arctic)  
 网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的
 
 [支持hilbert curve(进行中)](https://github.com/apache/iceberg/pull/5824)  
