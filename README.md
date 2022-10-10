@@ -4,6 +4,7 @@
 ## 企业实践
 
 ## 源码剖析
+[Iceberg文件组织原理](https://mp.weixin.qq.com/s/QE-odbd5O2LBFg3RU1gJPQ) 个人认为原理讲解得特别清楚     
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221)
 
 
