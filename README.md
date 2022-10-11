@@ -23,11 +23,11 @@
 正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
 ### 二级索引
-[puffin索引文件设计文档](https://docs.google.com/document/d/1we0BuQbbdqiJS2eUFC_-6TPSuO57GXivzKmcTzApivY/edit#heading=h.actwalaaggwl)   
-puffin是一种Iceberg自定义的文件格式，和orc、parquet同一级别，用于保存表的索引信息。  
-目前puffin文件的读/写/序列化/反序列化都已经实现好了。  
+[Puffin索引文件](https://iceberg.apache.org/puffin-spec/)  
+Puffin是一种Iceberg自定义的文件格式，在理解上可以认为是和orc、parquet同一级别的，用于保存表的索引信息。  
+目前Puffin文件的读/写/序列化/反序列化都已经实现好了。  
 
-在 [pr-5450](https://github.com/apache/iceberg/pull/5450)中引入了表信息统计的接口--StatisticsFile，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
+基于Puffin文件，Iceberg定义了表信息统计的接口[StatisticsFile](https://github.com/apache/iceberg/blob/master/api/src/main/java/org/apache/iceberg/StatisticsFile.java)，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
 ```
 
 /** A metadata about a statistics or indices blob. */
@@ -50,7 +50,7 @@ public interface BlobMetadata {
 
 ```
 其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。具体使用可以参考这个单元测试
-[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是puffin的。  
+[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是.puffin结尾的。  
 
 
 [支持hilbert curve](https://github.com/apache/iceberg/pull/5824)  
