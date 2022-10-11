@@ -28,6 +28,32 @@
 [Arctic项目](https://github.com/NetEase/arctic)  
 网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的
 
-[支持hilbert curve(进行中)](https://github.com/apache/iceberg/pull/5824)  
+[支持hilbert curve](https://github.com/apache/iceberg/pull/5824)  
 hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看讨论不太积极，可能zorder已经足够好了
+
+### 二级索引
+[索引文件设计](https://docs.google.com/document/d/1we0BuQbbdqiJS2eUFC_-6TPSuO57GXivzKmcTzApivY/edit#heading=h.actwalaaggwl)
+在 [5450](https://github.com/apache/iceberg/pull/5450)中引入了表信息统计的接口--StatisticsFile，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
+```
+
+/** A metadata about a statistics or indices blob. */
+public interface BlobMetadata {
+  /** Type of the blob. Never null */
+  String type();
+
+  /** ID of the Iceberg table's snapshot the blob was computed from */
+  long sourceSnapshotId();
+
+  /** Sequence number of the Iceberg table's snapshot the blob was computed from */
+  long sourceSnapshotSequenceNumber();
+
+  /** Ordered list of fields the blob was calculated from. Never null */
+  List<Integer> fields();
+
+  /** Additional properties of the blob, specific to the blob type. Never null */
+  Map<String, String> properties();
+}
+```
+其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。
+
 
