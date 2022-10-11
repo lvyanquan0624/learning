@@ -2,7 +2,7 @@
 
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit)  
 有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的抉择讨论，非常值得细看  
-[Apache Iceberg 1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
+[1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
 正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
 ## 企业实践
