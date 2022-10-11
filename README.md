@@ -47,8 +47,11 @@ public interface BlobMetadata {
 
 ## 功能跟踪
 
-[支持hilbert curve](https://github.com/apache/iceberg/pull/5824)  
-hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看讨论不太积极，可能zorder已经足够好了
+### 多维数据排序
+#### Zorder
+已经实现了通过[rewrite_data_files](https://iceberg.apache.org/docs/latest/spark-procedures/#rewrite_data_files)对数据文件进行重新排列。  
+#### hilbert curve
+hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看[pr-5824](https://github.com/apache/iceberg/pull/5824)讨论不太积极，可能zorder已经足够好了。  
 
 ## 其他相关项目
 [Nessie](https://github.com/projectnessie/nessie)    
