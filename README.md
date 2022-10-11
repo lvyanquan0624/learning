@@ -1,4 +1,4 @@
-# 文档汇总，供个人学习
+# 个人学习记录
 
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit)  
 有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的抉择讨论，非常值得细看     
