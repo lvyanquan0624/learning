@@ -56,6 +56,7 @@ public interface BlobMetadata {
 }
 
 ```
-其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。
+其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。具体使用可以参考这个单元测试
+[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)
 
 
