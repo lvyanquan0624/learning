@@ -48,7 +48,7 @@ public interface BlobMetadata {
 ### 扫描指标
 统计文件级别的skip信息
 ```
-
+ScanMetrics.java
 public static final String TOTAL_PLANNING_DURATION = "total-planning-duration";
 public static final String RESULT_DATA_FILES = "result-data-files";
 public static final String RESULT_DELETE_FILES = "result-delete-files";
