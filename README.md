@@ -19,20 +19,11 @@
 
 ## 功能跟踪
 
-[Apache Iceberg 1.0.0 RC0 发版](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
+[Apache Iceberg 1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
 正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
-[Nessie项目](https://github.com/projectnessie/nessie)    
-与Iceberg相关的一个项目，在Table Format的基础上提供事务保证和Git式的使用体验
-
-[Arctic项目](https://github.com/NetEase/arctic)  
-网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的
-
-[支持hilbert curve](https://github.com/apache/iceberg/pull/5824)  
-hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看讨论不太积极，可能zorder已经足够好了
-
 ### 二级索引
-[索引文件设计](https://docs.google.com/document/d/1we0BuQbbdqiJS2eUFC_-6TPSuO57GXivzKmcTzApivY/edit#heading=h.actwalaaggwl)   
+[索引文件设计文档](https://docs.google.com/document/d/1we0BuQbbdqiJS2eUFC_-6TPSuO57GXivzKmcTzApivY/edit#heading=h.actwalaaggwl)   
 
 在 [pr-5450](https://github.com/apache/iceberg/pull/5450)中引入了表信息统计的接口--StatisticsFile，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
 ```
@@ -57,6 +48,15 @@ public interface BlobMetadata {
 
 ```
 其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。具体使用可以参考这个单元测试
-[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)
+[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。  
 
 
+[支持hilbert curve](https://github.com/apache/iceberg/pull/5824)  
+hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看讨论不太积极，可能zorder已经足够好了
+
+### 其他相关项目
+[Nessie项目](https://github.com/projectnessie/nessie)    
+与Iceberg相关的一个项目，在Table Format的基础上提供事务保证和Git式的使用体验
+
+[Arctic项目](https://github.com/NetEase/arctic)  
+网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的
