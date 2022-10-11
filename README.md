@@ -46,8 +46,9 @@ public interface BlobMetadata {
 [TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是.puffin结尾的。  
 
 ### 扫描指标
-
+统计文件级别的skip信息
 ```
+
 public static final String TOTAL_PLANNING_DURATION = "total-planning-duration";
 public static final String RESULT_DATA_FILES = "result-data-files";
 public static final String RESULT_DELETE_FILES = "result-delete-files";
@@ -64,6 +65,7 @@ public static final String SKIPPED_DELETE_FILES = "skipped-delete-files";
 public static final String INDEXED_DELETE_FILES = "indexed-delete-files";
 public static final String EQUALITY_DELETE_FILES = "equality-delete-files";
 public static final String POSITIONAL_DELETE_FILES = "positional-delete-files";
+
 ```
 
 ### 多维数据排序
