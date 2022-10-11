@@ -34,7 +34,7 @@ hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是
 ### 二级索引
 [索引文件设计](https://docs.google.com/document/d/1we0BuQbbdqiJS2eUFC_-6TPSuO57GXivzKmcTzApivY/edit#heading=h.actwalaaggwl)   
 
-在 [5450](https://github.com/apache/iceberg/pull/5450)中引入了表信息统计的接口--StatisticsFile，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
+在 [pr-5450](https://github.com/apache/iceberg/pull/5450)中引入了表信息统计的接口--StatisticsFile，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
 ```
 
 /** A metadata about a statistics or indices blob. */
