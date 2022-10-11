@@ -45,11 +45,32 @@ public interface BlobMetadata {
 其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。具体使用可以参考这个单元测试
 [TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是.puffin结尾的。  
 
-## 功能跟踪
+### 扫描指标
+
+```
+public static final String TOTAL_PLANNING_DURATION = "total-planning-duration";
+public static final String RESULT_DATA_FILES = "result-data-files";
+public static final String RESULT_DELETE_FILES = "result-delete-files";
+public static final String SCANNED_DATA_MANIFESTS = "scanned-data-manifests";
+public static final String SCANNED_DELETE_MANIFESTS = "scanned-delete-manifests";
+public static final String TOTAL_DATA_MANIFESTS = "total-data-manifests";
+public static final String TOTAL_DELETE_MANIFESTS = "total-delete-manifests";
+public static final String TOTAL_FILE_SIZE_IN_BYTES = "total-file-size-in-bytes";
+public static final String TOTAL_DELETE_FILE_SIZE_IN_BYTES = "total-delete-file-size-in-bytes";
+public static final String SKIPPED_DATA_MANIFESTS = "skipped-data-manifests";
+public static final String SKIPPED_DELETE_MANIFESTS = "skipped-delete-manifests";
+public static final String SKIPPED_DATA_FILES = "skipped-data-files";
+public static final String SKIPPED_DELETE_FILES = "skipped-delete-files";
+public static final String INDEXED_DELETE_FILES = "indexed-delete-files";
+public static final String EQUALITY_DELETE_FILES = "equality-delete-files";
+public static final String POSITIONAL_DELETE_FILES = "positional-delete-files";
+```
 
 ### 多维数据排序
+
 #### Zorder
-已经实现了通过[rewrite_data_files](https://iceberg.apache.org/docs/latest/spark-procedures/#rewrite_data_files)对数据文件进行重新排列。  
+已经实现了通过[rewrite_data_files](https://iceberg.apache.org/docs/latest/spark-procedures/#rewrite_data_files)对数据文件进行重新排列。 
+
 #### hilbert curve
 hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看[pr-5824](https://github.com/apache/iceberg/pull/5824)讨论不太积极，可能zorder已经足够好了。  
 
