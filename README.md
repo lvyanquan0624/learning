@@ -1,7 +1,9 @@
 # Iceberg
 
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit)  
-有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的抉择讨论，非常值得细看     
+有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的抉择讨论，非常值得细看  
+[Apache Iceberg 1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
+正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
 ## 企业实践
 
@@ -12,15 +14,7 @@
 本质上，一张表是由它的全部数据文件组成，Iceberg做的就是怎么跟踪这些数据文件和利用这些数据文件中记录的统计信息   
 ![image](https://user-images.githubusercontent.com/38547014/194792347-94c3a321-c3a5-4e6d-b641-5f8e829a3b62.png)  
  
-
-
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221)  
-
-
-## 功能跟踪
-
-[Apache Iceberg 1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
-正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
 ### 二级索引
 [Puffin索引文件](https://iceberg.apache.org/puffin-spec/)  
@@ -51,13 +45,14 @@ public interface BlobMetadata {
 其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。具体使用可以参考这个单元测试
 [TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是.puffin结尾的。  
 
+## 功能跟踪
 
 [支持hilbert curve](https://github.com/apache/iceberg/pull/5824)  
 hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看讨论不太积极，可能zorder已经足够好了
 
-### 其他相关项目
-[Nessie项目](https://github.com/projectnessie/nessie)    
-与Iceberg相关的一个项目，在Table Format的基础上提供事务保证和Git式的使用体验
+## 其他相关项目
+[Nessie](https://github.com/projectnessie/nessie)    
+在Table Format的基础上提供事务保证和Git式的使用体验
 
-[Arctic项目](https://github.com/NetEase/arctic)  
+[Arctic](https://github.com/NetEase/arctic)  
 网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的
