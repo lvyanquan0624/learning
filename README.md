@@ -82,7 +82,7 @@ public static final String POSITIONAL_DELETE_FILES = "positional-delete-files";
 hilbert曲线相比z-order曲线在多维查询中效果应该会更好，但是看[pr-5824](https://github.com/apache/iceberg/pull/5824)讨论不太积极，可能zorder已经足够好了。  
 
 ## 其他相关项目
-[Nessie](https://github.com/projectnessie/nessie)    
+[Nessie](https://github.com/projectnessie/nessie)      
 在Table Format的基础上提供事务保证和Git式的使用体验
 
 [Arctic](https://github.com/NetEase/arctic)  
