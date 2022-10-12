@@ -5,6 +5,9 @@
 [1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
 正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
+## 学习资料
+[实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门值得参考的实践案例  
+
 ## 企业实践
 
 ## 源码剖析
