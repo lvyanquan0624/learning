@@ -6,7 +6,9 @@
 正在讨论中，正式版发布代表着稳定性的提升，一定会吸引更多人关注和使用这个项目  
 
 ## 学习资料
-[实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门值得参考的实践案例  
+[实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门值得参考的实践案例，有很多测试场景  
+<img width="756" alt="Screen Shot 2022-10-12 at 11 53 00 AM" src="https://user-images.githubusercontent.com/38547014/195246091-09b60c59-5895-40b8-84c5-a8299031090d.png">
+
 
 ## 企业实践
 
