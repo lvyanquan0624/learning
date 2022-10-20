@@ -3,7 +3,7 @@
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit)  
 有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的讨论，值得细看  
 [1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3)    
-已经release 
+已经Release 
 
 ## 学习资料
 [实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门值得参考的实践案例，有很多测试场景  
