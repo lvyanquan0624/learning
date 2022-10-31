@@ -22,8 +22,8 @@
 个人认为原理讲解得特别清楚的一篇文章.   
 本质上，一张表是由它的全部数据文件组成，Iceberg做的就是怎么跟踪这些数据文件和利用这些数据文件中记录的统计信息.     
 ![image](https://user-images.githubusercontent.com/38547014/194792347-94c3a321-c3a5-4e6d-b641-5f8e829a3b62.png).    
- 
 [Flink读取Iceberg表的实现源码解读](https://mp.weixin.qq.com/s/-rgbEyIteqx8txXuKOy4lw).   
+[Flink 流式写入Iceberg实现原理解析](https://mp.weixin.qq.com/s/jIcQbpj1OtQ71m6YFCItng).  
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221).   
 
 ### 二级索引
