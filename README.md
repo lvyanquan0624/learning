@@ -89,8 +89,8 @@ https://github.com/apache/iceberg/pull/6043.
 
 ## 其他相关项目
 [Nessie](https://github.com/projectnessie/nessie).        
-在Table Format的基础上提供事务保证和Git式的使用体验.  
+提供事务保证和Git式的使用体验.  
 [Arctic](https://github.com/NetEase/arctic).    
-网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的.   
+网易开源的数据湖平台项目，不过目前是基于Iceberg0.12版本的.   
 [基于 Flink 实现 Kafka + Iceberg 的流批一体 Hybrid Storage](https://github.com/flink-china/flink-forward-asia-hackathon-2021/issues/28).  
 flink-forward-asia-hackathon-2021 参赛作品.  
