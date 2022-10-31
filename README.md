@@ -11,6 +11,7 @@
 
 
 ## 企业实践
+[Spark读写Iceberg在腾讯的实践和优化](https://mp.weixin.qq.com/s/KK0pMt40dMOWevF8t6pdtw).  
 
 ## 源码剖析
 
