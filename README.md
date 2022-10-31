@@ -3,7 +3,8 @@
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit).  
 有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的讨论.  
 [1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3).     
-已经Release 
+已经Release.   
+[Apache Iceberg 0.13 特性介绍](https://mp.weixin.qq.com/s/n5YmWEwyEf5nFVGxSjJUxA).  
 
 ## 学习资料
 [实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门参考，有很多实践案例.  
