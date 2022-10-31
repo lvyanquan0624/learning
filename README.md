@@ -11,7 +11,8 @@
 
 
 ## 企业实践
-[ 2022-07-12 Iceberg在腾讯微视实时场景的应用](https://mp.weixin.qq.com/s/aEhZJUXOmNilHuImf7KB0A).  
+[2022-07-12 Iceberg在腾讯微视实时场景的应用](https://mp.weixin.qq.com/s/aEhZJUXOmNilHuImf7KB0A).  
+[2022-08-29 Apache Iceberg在网易严选批流一体的实践](https://mp.weixin.qq.com/s/Ui2WRyu2eV3gqTh-kyGupw).  
 [2022-09-22 业内首个基于Iceberg的“云端仓转湖”生产实践探索](https://mp.weixin.qq.com/s/v-VKjt_kDCXh3fj5Xvm_dQ).  
 [2022-10-29 Spark读写Iceberg在腾讯的实践和优化](https://mp.weixin.qq.com/s/KK0pMt40dMOWevF8t6pdtw).  
 
