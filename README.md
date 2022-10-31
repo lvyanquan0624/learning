@@ -11,6 +11,7 @@
 
 
 ## 企业实践
+[2021-04-06 Flink 集成 Iceberg 在同程艺龙的生产实践](https://mp.weixin.qq.com/s/PvW6KAL6Z8_0-PIDX2blfw).   
 [2022-07-12 Iceberg在腾讯微视实时场景的应用](https://mp.weixin.qq.com/s/aEhZJUXOmNilHuImf7KB0A).  
 [2022-08-06 Apache Iceberg在小红书的探索与实践](https://mp.weixin.qq.com/s/rw3iKYiHoGvTQG04nK0Y8w).  
 [2022-08-29 Apache Iceberg在网易严选批流一体的实践](https://mp.weixin.qq.com/s/Ui2WRyu2eV3gqTh-kyGupw).  
