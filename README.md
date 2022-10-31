@@ -1,12 +1,12 @@
 # Iceberg
 
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit).  
-有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的讨论，值得细看.  
+有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的讨论.  
 [1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3).     
 已经Release 
 
 ## 学习资料
-[实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门值得参考的实践案例，有很多测试场景  
+[实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门参考，有很多实践案例.  
 <img width="756" alt="Screen Shot 2022-10-12 at 11 53 00 AM" src="https://user-images.githubusercontent.com/38547014/195246091-09b60c59-5895-40b8-84c5-a8299031090d.png">
 
 
@@ -90,8 +90,7 @@ https://github.com/apache/iceberg/pull/6043.
 ## 其他相关项目
 [Nessie](https://github.com/projectnessie/nessie).        
 在Table Format的基础上提供事务保证和Git式的使用体验.  
-
 [Arctic](https://github.com/NetEase/arctic).    
-网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的.    
-
-------------------------------------------------------------------------------------------------------------------------------------------------------
+网易开源的数据湖平台项目，提供了文件自动治理的能力，不过目前是基于Iceberg0.12版本的.   
+[基于 Flink 实现 Kafka + Iceberg 的流批一体 Hybrid Storage](https://github.com/flink-china/flink-forward-asia-hackathon-2021/issues/28)
+flink-forward-asia-hackathon-2021 参赛作品
