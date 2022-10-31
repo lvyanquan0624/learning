@@ -11,6 +11,7 @@
 
 
 ## 企业实践
+[ 2022-07-12 Iceberg在腾讯微视实时场景的应用](https://mp.weixin.qq.com/s/aEhZJUXOmNilHuImf7KB0A).  
 [2022-10-29 Spark读写Iceberg在腾讯的实践和优化](https://mp.weixin.qq.com/s/KK0pMt40dMOWevF8t6pdtw).  
 
 ## 源码剖析
