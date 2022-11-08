@@ -4,7 +4,7 @@
 有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的讨论.  
 [1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3).     
 已经Release.   
-[Apache Iceberg 0.14 特性介绍](https://mp.weixin.qq.com/s/AZxNAe9pXpLYyx5BlG35bw). 
+[Apache Iceberg 0.14 特性介绍](https://mp.weixin.qq.com/s/AZxNAe9pXpLYyx5BlG35bw).     
 [Apache Iceberg 0.13 特性介绍](https://mp.weixin.qq.com/s/n5YmWEwyEf5nFVGxSjJUxA).  
 
 ## 学习资料
