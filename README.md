@@ -92,6 +92,11 @@ public static final String POSITIONAL_DELETE_FILES = "positional-delete-files";
 ### Partial Update
 https://github.com/apache/iceberg/pull/6043.  
 
+### Flink
+[Flink Iceberg Source 并行度推断源码解析](http://www.54tianzhisheng.cn/2022/05/02/flink-iceberg-source-parallelism/).  
+
+### Spark
+
 ## 其他相关项目
 [Nessie](https://github.com/projectnessie/nessie).        
 提供事务保证和Git式的使用体验.  
