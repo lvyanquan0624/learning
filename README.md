@@ -32,7 +32,8 @@
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221).   
 
 ### 二级索引
-[Puffin索引文件](https://iceberg.apache.org/puffin-spec/)  
+[Puffin索引文件](https://iceberg.apache.org/puffin-spec/).          
+[Puffin and Iceberg：海雀与冰山齐飞](https://mp.weixin.qq.com/s/VrAQHzFevOL2JDjnFM3Low).   
 Puffin Format是一种Iceberg自定义的文件格式，在理解上可以认为是和orc、parquet同一级别的，用于保存表的索引信息。目前Puffin文件的读/写/序列化/反序列化都已经实现好了。  
 
 基于Puffin文件，Iceberg定义了表信息统计的接口[StatisticsFile](https://github.com/apache/iceberg/blob/master/api/src/main/java/org/apache/iceberg/StatisticsFile.java)，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
