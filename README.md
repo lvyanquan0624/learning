@@ -6,6 +6,7 @@
 已经Release.   
 [Apache Iceberg 0.14 特性介绍](https://mp.weixin.qq.com/s/AZxNAe9pXpLYyx5BlG35bw).     
 [Apache Iceberg 0.13 特性介绍](https://mp.weixin.qq.com/s/n5YmWEwyEf5nFVGxSjJUxA).  
+[Apache Iceberg 0.11 特性介绍](https://mp.weixin.qq.com/s/-BnuH_uVM4SRhXSTcz75yg).  
 
 ## 学习资料
 [实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门参考，有很多实践案例.  
