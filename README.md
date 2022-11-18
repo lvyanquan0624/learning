@@ -8,10 +8,12 @@
 [Apache Iceberg 0.13 特性介绍](https://mp.weixin.qq.com/s/n5YmWEwyEf5nFVGxSjJUxA).  
 [Apache Iceberg 0.11 特性介绍](https://mp.weixin.qq.com/s/-BnuH_uVM4SRhXSTcz75yg).  
 
-## 学习资料
+## 教程--专栏
 [实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门参考，有很多实践案例.  
 <img width="756" alt="Screen Shot 2022-10-12 at 11 53 00 AM" src="https://user-images.githubusercontent.com/38547014/195246091-09b60c59-5895-40b8-84c5-a8299031090d.png">
 
+## 教程--视频
+[Iceberg数据湖技术教程](https://www.bilibili.com/video/BV1MN4y1F7zJ/).  
 
 ## 企业实践
 [2021-04-06 Flink 集成 Iceberg 在同程艺龙的生产实践](https://mp.weixin.qq.com/s/PvW6KAL6Z8_0-PIDX2blfw).   
