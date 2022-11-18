@@ -31,6 +31,7 @@
 [Flink 流式写入Iceberg实现原理解析](https://mp.weixin.qq.com/s/jIcQbpj1OtQ71m6YFCItng).   
 [Iceberg事务特性解读](https://mp.weixin.qq.com/s/ppDm1SzmfHKDd585i6TGZQ).  
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221).   
+[iceberg 源码之FindFiles](https://segmentfault.com/a/1190000041529010).   
 
 ### 二级索引
 [Puffin索引文件](https://iceberg.apache.org/puffin-spec/).          
