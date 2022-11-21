@@ -13,6 +13,7 @@
 <img width="756" alt="Screen Shot 2022-10-12 at 11 53 00 AM" src="https://user-images.githubusercontent.com/38547014/195246091-09b60c59-5895-40b8-84c5-a8299031090d.png">
 
 ## 教程--视频
+[Apache Iceberg 101 Course](https://www.youtube.com/watch?v=MSuT20EqnnM&list=PL-gIUf9e9CCtGr_zYdWieJhiqBG_5qSPa&index=1).  
 [Iceberg数据湖技术教程](https://www.bilibili.com/video/BV1MN4y1F7zJ/).  
 
 ## 企业实践
