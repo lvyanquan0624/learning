@@ -29,12 +29,11 @@
 [Iceberg文件组织原理](https://mp.weixin.qq.com/s/QE-odbd5O2LBFg3RU1gJPQ).  
 个人认为原理讲解得特别清楚的一篇文章.   
 本质上，一张表是由它的全部数据文件组成，Iceberg做的就是怎么跟踪这些数据文件和利用这些数据文件中记录的统计信息.     
-![image](https://user-images.githubusercontent.com/38547014/194792347-94c3a321-c3a5-4e6d-b641-5f8e829a3b62.png).    
-[Flink读取Iceberg表的实现源码解读](https://mp.weixin.qq.com/s/-rgbEyIteqx8txXuKOy4lw).     
-[Flink 流式写入Iceberg实现原理解析](https://mp.weixin.qq.com/s/jIcQbpj1OtQ71m6YFCItng).   
+![image](https://user-images.githubusercontent.com/38547014/194792347-94c3a321-c3a5-4e6d-b641-5f8e829a3b62.png).     
 [Iceberg事务特性解读](https://mp.weixin.qq.com/s/ppDm1SzmfHKDd585i6TGZQ).  
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221).   
-[iceberg 源码之FindFiles](https://segmentfault.com/a/1190000041529010).   
+[iceberg 源码之FindFiles](https://segmentfault.com/a/1190000041529010).  
+[聊一聊Iceberg重磅功能Row-level delete](https://www.modb.pro/db/184139).  
 
 ### 二级索引
 [Puffin索引文件](https://iceberg.apache.org/puffin-spec/).          
@@ -99,6 +98,8 @@ public static final String POSITIONAL_DELETE_FILES = "positional-delete-files";
 https://github.com/apache/iceberg/pull/6043.  
 
 ### Flink
+[Flink读取Iceberg表的实现源码解读](https://mp.weixin.qq.com/s/-rgbEyIteqx8txXuKOy4lw).     
+[Flink流式写入Iceberg实现原理解析](https://mp.weixin.qq.com/s/jIcQbpj1OtQ71m6YFCItng).  
 [Flink Iceberg Source 并行度推断源码解析](http://www.54tianzhisheng.cn/2022/05/02/flink-iceberg-source-parallelism/).  
 [flink写iceberg四种TaskWriter区别](https://blog.csdn.net/yiweiyi329/article/details/122012474).   
 
