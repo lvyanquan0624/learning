@@ -100,6 +100,7 @@ https://github.com/apache/iceberg/pull/6043.
 
 ### Flink
 [Flink Iceberg Source 并行度推断源码解析](http://www.54tianzhisheng.cn/2022/05/02/flink-iceberg-source-parallelism/).  
+[flink写iceberg四种TaskWriter区别](https://blog.csdn.net/yiweiyi329/article/details/122012474).   
 
 ### Spark
 [Iceberg 源码阅读(五) Spark 数据读取流程分析](https://zhuanlan.zhihu.com/p/457326337).   
