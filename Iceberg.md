@@ -2,8 +2,7 @@
 
 [社区会议同步文档](https://docs.google.com/document/d/1YuGhUdukLP5gGiqCbk0A5_Wifqe2CZWgOd3TbhY3UQg/edit).  
 有月度会议和视频回放，记录了从 2020.05 至今版本迭代过程中的讨论.  
-[1.0.0 RC0 发版投票](https://lists.apache.org/thread/cr53bdjssovscf79wzhjck9cqs7pt6y3).     
-已经Release.   
+1.1.0 已经Release.   
 [Apache Iceberg 0.14 特性介绍](https://mp.weixin.qq.com/s/AZxNAe9pXpLYyx5BlG35bw).     
 [Apache Iceberg 0.13 特性介绍](https://mp.weixin.qq.com/s/n5YmWEwyEf5nFVGxSjJUxA).  
 [Apache Iceberg 0.11 特性介绍](https://mp.weixin.qq.com/s/-BnuH_uVM4SRhXSTcz75yg).  
