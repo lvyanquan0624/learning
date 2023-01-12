@@ -5,7 +5,7 @@
 1.1.0 已经Release.   
 [Apache Iceberg 0.14 特性介绍](https://mp.weixin.qq.com/s/AZxNAe9pXpLYyx5BlG35bw).     
 [Apache Iceberg 0.13 特性介绍](https://mp.weixin.qq.com/s/n5YmWEwyEf5nFVGxSjJUxA).  
-[Apache Iceberg 0.11 特性介绍](https://mp.weixin.qq.com/s/-BnuH_uVM4SRhXSTcz75yg).  
+[Apache Iceberg 0.11 特性介绍](https://mp.weixin.qq.com/s/-BnuH_uVM4SRhXSTcz75yg).
 
 ## 教程--专栏
 [实践数据湖iceberg](https://blog.csdn.net/spark_dev/category_11588525.html) 新手入门参考，有很多实践案例.  
@@ -13,7 +13,7 @@
 
 ## 教程--视频
 [Apache Iceberg 101 Course](https://www.youtube.com/watch?v=MSuT20EqnnM&list=PL-gIUf9e9CCtGr_zYdWieJhiqBG_5qSPa&index=1).  
-[Iceberg数据湖技术教程](https://www.bilibili.com/video/BV1MN4y1F7zJ/).  
+[Iceberg数据湖技术教程](https://www.bilibili.com/video/BV1MN4y1F7zJ/).
 
 ## 企业实践
 [2021-04-06 Flink 集成 Iceberg 在同程艺龙的生产实践](https://mp.weixin.qq.com/s/PvW6KAL6Z8_0-PIDX2blfw).   
@@ -22,7 +22,7 @@
 [2022-08-29 Apache Iceberg在网易严选批流一体的实践](https://mp.weixin.qq.com/s/Ui2WRyu2eV3gqTh-kyGupw).  
 [2022-09-22 业内首个基于Iceberg的“云端仓转湖”生产实践探索](https://mp.weixin.qq.com/s/v-VKjt_kDCXh3fj5Xvm_dQ).  
 [2022-10-29 Spark读写Iceberg在腾讯的实践和优化](https://mp.weixin.qq.com/s/KK0pMt40dMOWevF8t6pdtw).  
-[数据湖Iceberg技术在小米的落地与场景应用](https://mp.weixin.qq.com/s/IvseAGwRUs0_fwKRxqgANQ).  
+[数据湖Iceberg技术在小米的落地与场景应用](https://mp.weixin.qq.com/s/IvseAGwRUs0_fwKRxqgANQ).
 
 ## 源码剖析
 
@@ -33,12 +33,12 @@
 [Iceberg事务特性解读](https://mp.weixin.qq.com/s/ppDm1SzmfHKDd585i6TGZQ).  
 [分析iceberg合并任务解决数据冲突](https://zhuanlan.zhihu.com/p/506740221).   
 [iceberg 源码之FindFiles](https://segmentfault.com/a/1190000041529010).  
-[聊一聊Iceberg重磅功能Row-level delete](https://www.modb.pro/db/184139).  
+[聊一聊Iceberg重磅功能Row-level delete](https://www.modb.pro/db/184139).
 
 ### 二级索引
 [Puffin索引文件](https://iceberg.apache.org/puffin-spec/).          
 [Puffin and Iceberg：海雀与冰山齐飞](https://mp.weixin.qq.com/s/VrAQHzFevOL2JDjnFM3Low).   
-Puffin Format是一种Iceberg自定义的文件格式，在理解上可以认为是和orc、parquet同一级别的，用于保存表的索引信息。目前Puffin文件的读/写/序列化/反序列化都已经实现好了。  
+Puffin Format是一种Iceberg自定义的文件格式，在理解上可以认为是和orc、parquet同一级别的，用于保存表的索引信息。目前Puffin文件的读/写/序列化/反序列化都已经实现好了。
 
 基于Puffin文件，Iceberg定义了表信息统计的接口[StatisticsFile](https://github.com/apache/iceberg/blob/master/api/src/main/java/org/apache/iceberg/StatisticsFile.java)，包含了一组BlobMetadata信息，BlobMetadata的定义如下：
 ```
@@ -63,7 +63,7 @@ public interface BlobMetadata {
 
 ```
 其中properties是允许自定义的统计信息。这个统计信息也会随着Snapshot的变更而改变，通过sourceSnapshotId跟踪对应的Snapshot。具体使用可以参考这个单元测试
-[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是.puffin结尾的。  
+[TestSetStatistics](https://github.com/apache/iceberg/blob/master/core/src/test/java/org/apache/iceberg/TestSetStatistics.java)。注意到读取的索引文件格式就是.puffin结尾的。
 
 ### 扫描指标
 统计文件级别的skip信息
@@ -92,19 +92,19 @@ public static final String POSITIONAL_DELETE_FILES = "positional-delete-files";
 
 ### 多维数据排序
 [Zorder curve](https://iceberg.apache.org/docs/latest/spark-procedures/#rewrite_data_files).  
-[Hilbert curve](https://github.com/apache/iceberg/pull/5824).  
+[Hilbert curve](https://github.com/apache/iceberg/pull/5824).
 
 ### Partial Update
-https://github.com/apache/iceberg/pull/6043.  
+https://github.com/apache/iceberg/pull/6043.
 
 ### Flink
 [Flink读取Iceberg表的实现源码解读](https://mp.weixin.qq.com/s/-rgbEyIteqx8txXuKOy4lw).     
 [Flink流式写入Iceberg实现原理解析](https://mp.weixin.qq.com/s/jIcQbpj1OtQ71m6YFCItng).  
 [Flink Iceberg Source 并行度推断源码解析](http://www.54tianzhisheng.cn/2022/05/02/flink-iceberg-source-parallelism/).  
-[flink写iceberg四种TaskWriter区别](https://blog.csdn.net/yiweiyi329/article/details/122012474).   
+[flink写iceberg四种TaskWriter区别](https://blog.csdn.net/yiweiyi329/article/details/122012474).
 
 ### Spark
-[Iceberg 源码阅读(五) Spark 数据读取流程分析](https://zhuanlan.zhihu.com/p/457326337).   
+[Iceberg 源码阅读(五) Spark 数据读取流程分析](https://zhuanlan.zhihu.com/p/457326337).
 
 ## 其他相关项目
 [Nessie](https://github.com/projectnessie/nessie).        
